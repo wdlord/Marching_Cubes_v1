@@ -1,0 +1,9 @@
+// Marching Cubes
+// The algorithm is essentially a 3D graphing function. Here are my main resources for this project: 
+// NVidia GPU Gems 3: https://developer.nvidia.com/gpugems/gpugems3/part-i-geometry/chapter-1-generating-complex-procedural-terrains-using-gpu
+// Paul Borke: http://paulbourke.net/geometry/polygonise/
+// In the future I would like to do some work on the GPU side like in the NVidia example, and perhaps rebuild the project in Unity.
+
+You can find my video demonstration of this project here: https://youtu.be/q8nsfmpS8Mo
+Video Description:
+The marching cubes algorithm is a 3D graphing algorithm. In practice it can be used to procedurally generate terrain using a Perlin Noise or Simplex Noise function. This project was simply the implementation of the algorithm, and I tested it using 4 non-random functions. You can see me toggling between a smooth look and a blocky (voxelized) rendering. The blocks represent the algorithm's voxels. every place in which a voxel appears is intersected by the Density Function's surface, which describes the terrain surface. This means that every visible block represents as space that will have one or more faces drawn within it.
